@@ -1,0 +1,29 @@
+.font-subtle {
+  color: gray;
+  font-size: 10px;
+}
+
+.comment {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-style: italic;
+  font-weight: 500;
+  word-break: break-all;
+}
+
+.comments-div {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 0.1em; */
+  max-width: 400px;
+  max-height: 100px;
+  box-shadow: 5px 5px 10px #b6b2b260;
+  border: 2px solid #00000010;
+  border-radius: 5px;
+  overflow: auto;
+  transition-duration: 0.2s;
+}
+
+.comments-div:hover {
+  transform: scale(1.05);
+}
